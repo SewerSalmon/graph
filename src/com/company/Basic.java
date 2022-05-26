@@ -24,11 +24,11 @@ public class Basic extends JPanel {
         int height = 100;
         g.setColor(Color.BLACK);
         g.fillRect(left, top, width, height);
+
         g.setColor(Color.BLUE);
         for (int x = 0;x<data.length;x++ )
-        g.fillRect(left+(x)*10,top+height-data[x],5,data[x]);
-
-    }
+        g.fillRect((left+x*10)+2,top+height-data[x],5,data[x]);
+        }
 
 
 }

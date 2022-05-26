@@ -25,7 +25,7 @@ public class GUImain extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if (e.getActionCommand().equals("Graph results")) {
             System.out.println("click");
-            int[] x = {100,20,50,80,70};
+            int[] x = {50,80,60,100,70,60,10,20,50,67};
             Basic test = new Basic(300,300,x);
         }
     }
